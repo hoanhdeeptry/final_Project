@@ -59,6 +59,7 @@ const ProductDetailsPage = () => {
         <main className={s.detailsPage}>
           <PagesHistory history={history} historyPaths={historyPaths} />
           <ProductDetails productData={PRODUCT_DATA} />
+          
           <RelatedItemsSection
             productType={PRODUCT_DATA?.category}
             currentProduct={PRODUCT_DATA}

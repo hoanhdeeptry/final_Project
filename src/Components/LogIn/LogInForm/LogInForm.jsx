@@ -32,7 +32,6 @@ const LogInForm = () => {
     const formDataObj = new FormData(e.target);
     const formData = {};
 
-    // Set keys and values from formDataObj to formData
     for (let pair of formDataObj.entries()) formData[pair[0]] = pair[1];
 
     if (isCorrectLoginData) {
