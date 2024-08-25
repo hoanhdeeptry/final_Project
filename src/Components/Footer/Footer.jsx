@@ -1,9 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import CopyRightsText from "./CopyRightsText/CopyRightsText";
 import CustomEmailInput from "./CustomEmailInput/CustomEmailInput";
 import s from "./Footer.module.scss";
-import RepoStarsForks from "./RepoStarsForks/RepoStarsForks";
 import DownloadAppInfo from "./WebsiteSocialMedia/DownloadAppInfo";
 
 const Footer = () => {
@@ -83,11 +81,7 @@ const Footer = () => {
             <DownloadAppInfo />
           </section>
         </section>
-
-        <CopyRightsText />
       </div>
-
-      <RepoStarsForks />
     </footer>
   );
 };
