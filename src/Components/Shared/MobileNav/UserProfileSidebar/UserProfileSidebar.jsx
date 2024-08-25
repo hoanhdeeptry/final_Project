@@ -21,7 +21,7 @@ const UserProfileSidebar = () => {
       </Link>
 
       <p>
-        {t("mobileNav.hey")} 🖐️
+        {t("mobileNav.hey")}
         <Link
           to="/profile"
           title={t("mobileNav.profile")}
